@@ -4,6 +4,12 @@
   --color-hover: #dc9458;
   --color-dark: #1c2123;
 }
+@utility box {
+  @apply container max-w-7xl mx-auto;
+}
+@utility btn {
+  @apply px-4 py-2 rounded-full text-white bg-[#cb2e36] hover:bg-[#dc9458] transition-colors duration-300;
+}
 body {
   font-family: Rubik, sans-serif;
 }
