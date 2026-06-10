@@ -11,233 +11,74 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!-- Nav -->
-    <div class="bg-red-600 text-white pb-20">
-      <nav
-        class="container mx-auto p-6 flex items-center space-x-4 justify-between"
+  <body class="relative overflow-x-hidden">
+    <!-- NAV -->
+    <div class="bg z-10 relative px-6">
+      <div
+        class="container max-w-7xl mx-auto grid grid-cols-4 grid-rows-8 items-center text-white  "
       >
-        <div class="flex gap-6 tracking-wide uppercase">
-          <a href="" class="text-xl font-bold hover:underline">Home</a>
-          <a href="" class="text-xl font-bold hover:underline">Our Menus</a>
-          <a href="" class="text-xl font-bold hover:underline">About</a>
-        </div>
-        <div class="w-1/5">
-          <img
-            src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/logo-white.png"
-            alt="burger logo"
-            class="w-full"
-          />
-        </div>
-        <div class="flex gap-6 tracking-wide uppercase">
-          <a href="" class="text-xl font-bold hover:underline">Order Online</a>
-          <a href="" class="text-xl font-bold hover:underline">Find Us</a>
-        </div>
-      </nav>
+        <!-- nav links -->
+         <div class="flex  items-center justify-between self-start py-10">
+            <a href="" class="text-lg font-medium uppercase hover:text-hover">Home</a>
+            <a href="" class="text-lg font-medium uppercase hover:text-hover">Our Menus</a>
+            <a href="" class="text-lg font-medium uppercase hover:text-hover">About</a>
+         </div>
 
-      <!-- end Nav -->
+         <div class="w-120  justify-self-center  col-span-2 self-start p-4">
+          <img class="w-full " src="/logo-white.png" alt="Logo">
+         </div>
 
-      <!-- main -->
-      <!-- hero -->
-      <div>
-        <div class="flex items-center justify-center w-1/2 mx-auto">
-          <h1
-            class="text-8xl font-bold text-center mt-20 tracking-wide uppercase gap-4 space-x-10"
-          >
-            <span>Taste</span> <span>The</span> <span>Difference</span>
-          </h1>
-        </div>
-        <div class="flex items-center px-20 space-x-6">
-          <img
-            src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/tomatos.png"
-            alt=""
-            class="w-1/6"
-          />
-          <div class="relative mx-auto w-1/2 flex items-center justify-center">
-            <img
-              src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/beef_burgers_burger_and_sauce_768px-5.png"
-              alt=""
-              class="w-full"
-            />
-            <img
-              src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/source.png"
-              alt=""
-              class="w-98 absolute -bottom-10 -right-10"
-            />
+         <div class="flex py-10 self-start items-center gap-6 justify-between col-start-4">
+          <a href="" class="text-lg font-medium uppercase hover:text-hover">Order Online</a>
+          <a href="" class="text-lg font-medium uppercase hover:text-hover">Find Us</a>
+          <a href="" class="text-lg font-medium uppercase hover:text-hover">📱</a>
+          <a href="" class="text-lg font-medium uppercase hover:text-hover">📦</a>
+         </div>
+         <!-- text -->
+          <h1 class="text-[5rem] text-center  absolute top-1/3 z-30 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold uppercase tracking-wide leading-[1.4] ">
+              <span>Taste</span>
+              <span >The</span> <br>
+              <span class="">Difference</span>
+            </h1>
+          <div class="col-start-2 col-span-2   items-center h-full justify-items-center row-span-2  p-20">
+           
+            <!-- burger -->
+           <div class="w-full z-20 relative">
+            <img src="/hero-burger.png" alt="Burger in hero page">
+            <img class="absolute w-98 -bottom-20 -right-40" src="/tomato-sauce.png" alt="Tomato sauce in hero page">
+            
+           </div>
           </div>
-        </div>
 
-        <div class="flex items-center justify-between px-10">
-          <div class="w-1/3">
-            <h2 class="text-3xl mb-4 font-bold uppercase">The beef burger</h2>
-            <p class="uppercase text-lg">
-              Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with
-              lettuce, tomato, house BBQ & ranch.
-            </p>
-          </div>
-          <div>
-            <h2 class="text-3xl font-bold">Sauce</h2>
-            <div class="text-5xl font-extrabold">Original</div>
-          </div>
-        </div>
+          <!-- tomato -->
+           <div class="w-[70%] row-start-3">
+            <img src="/tomato.png" alt="Tomato in hero page">
+           </div>
+          
+           <!-- hero-bottom text -->
+            <div class="row-start-4 col-span-2 self-start"> 
+              <h2 class="uppercase text-xl font-bold mb-2">The beef burger</h2>
+              <p class="uppercase text-sm leading-relaxed">Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch.</p>
+            </div>
+
+            <div class="row-start-4 col-start-4 justify-self-center self-start">
+              <h2 class="text-4xl font-bold uppercase">Sauce</h2>
+              <p class="font-cursive text-4xl">Original</p>
+            </div>
       </div>
-      <!-- end hero -->
     </div>
-    <main class="bg-stone-900 text-white">
-      <div class="flex items-center justify-center gap-10 py-20 px-10">
-        <div>
-          <div class="">
-            <div
-              class="border-t-4 border-b-4 border-stone-500 text-center uppercase font-bold mb-6 text-stone-500 p-5"
-            >
-              <h2
-                class="text-center text-2xl uppercase font-bold text-stone-500"
-              >
-                <span class=""
-                  >Don’t need a silver fork <br />
-                  to eat a good burger</span
-                >
-              </h2>
-            </div>
-            <div class="flex flex-col items-center gap-8 py-10">
-              <img
-                src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/fish-burger.png"
-                alt=""
-              />
-              <div class="text-center">
-                <h2 class="text-6xl font-bold uppercase">Fish</h2>
-                <h2 class="text-6xl font-bold uppercase">burger</h2>
-              </div>
-              <div>
-                <p class="text-center text-lg uppercase text-stone-600">
-                  Life is like a burger the more you add to it, the better it
-                  becomes
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class=" absolute z-20 top-[70%] w-40  -translate-y-1/2 right-0 ">
+          <img class="w-full" src="/onion.png" alt="Onion in hero page">
         </div>
-        <div>
-          <div class="">
-            <div
-              class="border-t-4 border-b-4 border-yellow-500 text-center uppercase font-bold mb-6 text-yellow-500 p-9"
-            >
-              <h2 class="text-center text-3xl uppercase font-bold">
-                <span class="">Our Burgers </span>
-              </h2>
-            </div>
-            <div class="flex flex-col items-center gap-8 py-10">
-              <img
-                src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/beef-burger.png"
-                alt=""
-              />
-              <div class="text-center">
-                <h2 class="text-6xl font-bold uppercase">Beef</h2>
-                <h2 class="text-6xl font-bold uppercase">burger</h2>
-              </div>
-              <div>
-                <p class="text-center text-lg uppercase text-stone-600">
-                  Burger for the body is not enough there must be a burger for
-                  the soul
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="">
-            <div
-              class="border-t-4 border-b-4 border-stone-500 text-center uppercase font-bold mb-6 text-stone-500 p-5"
-            >
-              <h2
-                class="text-center text-2xl uppercase font-bold text-stone-500"
-              >
-                <span class=""
-                  >Because we never play <br />
-                  with someone’s health</span
-                >
-              </h2>
-            </div>
-            <div class="flex flex-col items-center gap-8 py-10">
-              <div class="w-[78%]">
-                <img
-                  src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/veggie-burger.png"
-                  alt=""
-                  class="w-full"
-                />
-              </div>
-              <div class="text-center">
-                <h2 class="text-6xl font-bold uppercase">Veggie</h2>
-                <h2 class="text-6xl font-bold uppercase">burger</h2>
-              </div>
-              <div>
-                <p class="text-center text-lg uppercase text-stone-600">
-                  Roses are red, violets are blue. The burger costs less than
-                  dinner for two
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- on your way sec -->
-      <div class="container mx-auto">
-        <div class="flex items-center mb-10 gap-4">
-          <div class="h-2 w-full bg-amber-500"></div>
-          <div
-            class="text-centerdivnt-bold text-amber-600 uppercase w-1/2 text-center text-2xl"
-          >
-            Have it your way
-          </div>
-          <div class="h-2 w-full bg-amber-500"></div>
-        </div>
-
-        <!-- flex-layout -->
-        <div class="flex">
-          <div class="w-full h-full">
-            <img
-              src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo9/wp-content/uploads/sites/9/2021/01/delicious-burger-P8VTY5Y-683x1024.jpg"
-              alt=""
-            />
-          </div>
-          <div class="bg-stone-300 text-black p-8 flex flex-col gap-10">
-            <div>
-              <h2 class="text-5xl font-bold underline mb-3">Our</h2>
-              <h2 class="text-3xl">Menus</h2>
-            </div>
-            <p class="text-lg">
-              Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi. Sed ut perspiciatis unde omnis iste
-              natus error sit. Sed ut perspiciatis unde omnis iste natus error
-              sit voluptatem accusantium.
-            </p>
-            <button
-              class="px-2 py-3 bg-amber-700 text-xl font-bold uppercase self-start text-white"
-            >
-              View Menus
-            </button>
-          </div>
-          <div class="bg-stone-600 p-8 flex flex-col gap-10">
-            <div>
-              <h2 class="text-5xl font-bold underline mb-3">Order</h2>
-              <h2 class="text-3xl">Delivery</h2>
-            </div>
-            <p class="text-lg">
-              Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi. Sed ut perspiciatis unde omnis iste
-              natus error sit. Sed ut perspiciatis unde omnis iste natus error
-              sit voluptatem accusantium.
-            </p>
-            <button
-              class="px-2 py-3 bg-orange-400 text-xl font-bold uppercase self-start"
-            >
-              Order Online
-            </button>
-          </div>
-        </div>
-      </div>
-      <!--end  on your way sec -->
-    </main>
+        <!-- side-menu -->
+         <aside class="fixed z-20 h-42 top-1/2 right-0 -translate-y-1/2 bg-black p-4 rounded-l-lg">
+          <menu class="space-y-4">
+            <li>⚙️</li>
+            <li>♥️</li>
+            <li>📖</li>
+            <li>📞</li>
+          </menu>
+         </aside>
+    <!--end  NAV -->
   </body>
 </html>
