@@ -3,6 +3,8 @@
   --font-cursive: 'Dancing Script', cursive;
   --color-hover: #dc9458;
   --color-dark: #1c2123;
+  --color-pink: #ef3d5b;
+  --color-green: #57b957;
 }
 @utility box {
   @apply container max-w-7xl mx-auto;
