@@ -2,6 +2,7 @@
 @theme {
   --font-cursive: 'Dancing Script', cursive;
   --color-hover: #dc9458;
+  --color-dark: #1c2123;
 }
 body {
   font-family: Rubik, sans-serif;
